@@ -1,0 +1,11 @@
+// //Old
+// @include sticky-footer(75px, ".content-fullscreen", "#footer-fullscreen");
+//
+//Old
+footer{
+   display: inline-block;
+   width: 100%;
+   @media screen and ($bp-smaller-than-desktop){
+      text-align: center;
+   }
+}

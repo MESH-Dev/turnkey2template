@@ -1,0 +1,109 @@
+@import "compass/css3";
+
+* {
+  @include box-sizing(border-box);
+}
+
+@function grid-column-width($n) {
+  @return $n/12 * 100%;
+}
+
+
+
+//========= VARIABLES ==============================================
+//==================================================================
+
+$pad: 15px;
+$max-width: 1200px;
+
+//==================================================================
+//==================================================================
+
+.container{
+	max-width: $max-width;
+	margin:  0 auto;
+   @media screen and ($bp-smaller-than-desktophd){
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   @media screen and ($bp-smaller-than-tablet){
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+}
+
+.row {
+	width: 100%;
+	margin: 0 0 0 0;
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+  }
+  &.padding-bottom{
+  	margin-bottom: $pad;
+  }
+}
+
+.columns-1 { width: grid-column-width(1); }
+.columns-2 { width: grid-column-width(2); }
+.columns-3 { width: grid-column-width(3); }
+.columns-4 { width: grid-column-width(4); }
+.columns-5 { width: grid-column-width(5); }
+.columns-6 { width: grid-column-width(6); }
+.columns-7 { width: grid-column-width(7); }
+.columns-8 { width: grid-column-width(8); }
+.columns-9 { width: grid-column-width(9); }
+.columns-10 { width: grid-column-width(10); }
+.columns-11 { width: grid-column-width(11); }
+.columns-12 { width: grid-column-width(12); }
+
+.offset-by-1 { margin-left: grid-column-width(1); }
+.offset-by-2 { margin-left: grid-column-width(2); }
+.offset-by-3 { margin-left: grid-column-width(3); }
+.offset-by-4 { margin-left: grid-column-width(4); }
+.offset-by-5 { margin-left: grid-column-width(5); }
+.offset-by-6 { margin-left: grid-column-width(6); }
+.offset-by-7 { margin-left: grid-column-width(7); }
+.offset-by-8 { margin-left: grid-column-width(8); }
+.offset-by-9 { margin-left: grid-column-width(9); }
+.offset-by-10 { margin-left: grid-column-width(10); }
+.offset-by-11 { margin-left: grid-column-width(11); }
+.offset-by-12 { margin-left: grid-column-width(12); }
+
+
+
+[class*='columns-'] {
+	float: left;
+	padding-right: $pad;
+
+	.row &:last-of-type {
+		padding-right: 0;
+	}
+
+	@media($bp-smaller-than-tablet) {
+	    width: 100%;
+	    padding: 0;
+
+	}
+
+   &.content{
+      @media screen and ($bp-smaller-than-desktophd){
+         width: 100%;
+      }
+   }
+
+}
+
+[class*='offset-by-'] {
+
+	@media($bp-smaller-than-tablet) {
+	   margin-left: 0;
+	}
+
+}
+
+//helper class
+.no-padding{
+	padding-right: 0;
+}

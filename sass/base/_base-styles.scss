@@ -1,0 +1,193 @@
+// Base Styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// NOTE
+// html is set to 62.5% so that all the REM measurements throughout Skeleton
+// are based on 10px sizing. So basically 1.5rem = 15px :)
+
+html {
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+  font-size: 1.4em; // currently ems cause chrome bug misinterpreting rems on body element
+  line-height: 1.428;
+  font-weight: 100;
+  min-height: 100vh;
+  padding-top: 20px;
+  //font-family: $proxima;
+
+
+  //color: $font-color;
+}
+
+// Links
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a {
+  //color: $red;
+  text-decoration: none;
+  &:hover {
+    //color: $red;
+    text-decoration: underline;
+  }
+}
+
+// Misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+ // border-top: 1px solid $light-grey;
+}
+
+img{
+  //max-width: 100%;
+}
+
+li{
+    list-style-type: circle;
+
+}
+
+//Old
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+// * {
+// 	-moz-box-sizing: border-box;
+// 	box-sizing: border-box;
+// }
+//
+// body {
+// 	color: $color-font;
+//   font-size: $base__font-size;
+//   font-family: $font-family--primary;
+//   line-height: ($base__line-height/$base__font-size);
+// }
+//
+//
+// // Text
+//
+// h1 {
+// 	font-size: em(36);
+// }
+//
+// h2 {
+// 	font-size: em(26);
+// }
+//
+// h3 {
+// 	font-size: em(18);
+// }
+//
+// h4 {
+// 	margin-top: em(22, 14);
+// 	margin-bottom: em(32, 14);
+// 	color: palette(grey, x-light);
+// 	text-transform: uppercase;
+// 	letter-spacing: $letter-space;
+// 	font-weight: $font-weight--medium;
+// 	font-size: em(14);
+// }
+//
+// a {
+// 	color: #f26cb7;
+// 	text-decoration: none;
+// 	font-weight: $font-weight--medium;
+// 	word-break: break-word;
+// }
+//
+// a:hover {
+// 	opacity: 0.7;
+// }
+//
+// p {
+// 	margin: 0 0 em(30, 18);
+// 	font-weight: $font-weight--light;
+// 	font-size: em(13);
+// 	line-height: (27/18);
+// }
+//
+// blockquote {
+//   font-size: em(24);
+//   font-style : italic;
+//   font-weight: $font-weight--light;
+//   margin: em(32px, 24px) 0;
+//   padding: 0 0 0 5%;
+//   border-left: solid em(8px, 24px) palette(grey, xx-light);
+// }
+//
+// // Images
+//
+// img {
+//   margin-bottom: em(24px);
+//   max-width: 100%;
+//   height: auto;
+// }
+//
+// // Lists
+//
+// ul,
+// li {
+//   margin: 0;
+//   padding: 0;
+//   list-style-type: none;
+// }
+//
+// // Form elements
+//
+// input,
+// textarea {
+// 	display: block;
+// 	padding: 15px;
+// 	width: 100%;
+// 	outline: 0;
+// 	border: 0;
+// }
+//
+// input:focus,
+// textarea:focus {
+// 	transition: $trns_duration;
+// }
+//
+// // Button
+//
+// button {
+// 	outline: 0;
+// }
+//
+// // Layout
+//
+// footer {
+//
+// 	border-top: 1px solid palette(grey, xx-light);
+// 	p {
+// 		font-size: em(16px);
+// 		margin-top: em(22px, 16px);
+// 	}
+// }
+//
+// .home footer{
+// 	position:absolute;
+// 	bottom:0;
+// 	left:0
+// }
+//
+// @media only screen and (max-width:500px){
+// 	.home footer{
+// 		position:fixed;
+// 	}
+// }
+//
+// footer #trustwaveSealImage{
+//   display:block;
+//   padding-bottom:.5em;
+//   padding-left:.5em;
+// }

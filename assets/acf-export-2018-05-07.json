@@ -1,0 +1,493 @@
+[
+    {
+        "key": "group_5a6662881c716",
+        "title": "Global Site Settings",
+        "fields": [
+            {
+                "key": "field_5a6662f1584d8",
+                "label": "Site Logo",
+                "name": "site_logo",
+                "type": "image",
+                "instructions": "Choose an image for the site's logo. This will be displayed in the navigation bar at the top left. Recommended images are square and 500px wide or smaller.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5ad4ff2e9c367",
+                "label": "Fonts",
+                "name": "font_pairing",
+                "type": "select",
+                "instructions": "Select the primary and secondary fonts for your site. The primary font will be used on elements such as navigation items, headings, buttons, and forms. The secondary font will be used in descriptions and body copy.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Nunito Sans and Merriweather",
+                    "2": "Montserrat and Playfair Display",
+                    "3": "Ubuntu and Zilla Slab",
+                    "4": "IBM Plex Serif and Merriweather",
+                    "5": "Muli and Raleway",
+                    "6": "Zilla Slab and Open Sans"
+                },
+                "default_value": [
+                    1
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a947c89c08a9",
+                "label": "Footer Social Media Links",
+                "name": "social_nav",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 4,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5a947cbec08aa",
+                        "label": "Social Icon",
+                        "name": "social_icon",
+                        "type": "radio",
+                        "instructions": "Which ones",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "fab fa-facebook": "Facebook",
+                            "fab fa-instagram": "Instagram",
+                            "fab fa-yelp": "Yelp",
+                            "fab fa-linkedin": "LinkedIn"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "save_other_choice": 0,
+                        "default_value": "",
+                        "layout": "vertical",
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_5a947d13c08ab",
+                        "label": "Social URL",
+                        "name": "social_url",
+                        "type": "text",
+                        "instructions": "Link",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5ab3f6df5cde0",
+                "label": "Primary Color",
+                "name": "primary_color",
+                "type": "color_picker",
+                "instructions": "Enter the site's primary color. This color will be used for the largest text heading - H1 - as well as the lower level text heading - H3. Once this is entered correctly, it is recommended to make no changes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#ADBAAC"
+            },
+            {
+                "key": "field_5abd0f348d271",
+                "label": "Secondary Color",
+                "name": "secondary_color",
+                "type": "color_picker",
+                "instructions": "Enter the site's secondary color. This color will be used for text links, lower-level text headings, and the Page Callout. Once this is entered correctly, it is recommended to make no changes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#4FBDB3"
+            },
+            {
+                "key": "field_5abd2ce6553c1",
+                "label": "Tertiary Color",
+                "name": "tertiary_color",
+                "type": "color_picker",
+                "instructions": "Enter the site's tertiary color. This color will be used for multiple lower-level text headings. Once this is entered correctly, it is recommended to make no changes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#E38D7A"
+            },
+            {
+                "key": "field_5ab3d6e47d7b6",
+                "label": "Address Line 1",
+                "name": "address_line_1",
+                "type": "text",
+                "instructions": "Enter the first line of your address.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ab3eca30b8e8",
+                "label": "Address Line 2",
+                "name": "address_line_2",
+                "type": "text",
+                "instructions": "Enter the second line of your address.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ab3d76d7d7b7",
+                "label": "Phone Number",
+                "name": "phone_number",
+                "type": "text",
+                "instructions": "Enter the phone number you would like to display.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ab3d77a7d7b8",
+                "label": "Email Address",
+                "name": "email_address",
+                "type": "text",
+                "instructions": "Enter the email address you would like to display.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ae72215a8e0b",
+                "label": "Instagram User ID",
+                "name": "instagram_user_id",
+                "type": "text",
+                "instructions": "Enter your Instagram User ID. This is a string of numbers provided by Instagram to provide API access, not your User Name. Once this is correctly entered, it is recommended to make no changes unless switching to a different Instagram account.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ae722faa8e0c",
+                "label": "Instagram Access Token",
+                "name": "instagram_access_token",
+                "type": "text",
+                "instructions": "Enter your Instagram access token. This is a long string of characters provided by Instagram for API access. Once this is entered correctly, it is recommended to make no changes unless switching to a different Instagram account.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ac62076db1eb",
+                "label": "Google Analytics Code",
+                "name": "google_analytics_code",
+                "type": "text",
+                "instructions": "Paste in the code provided by Google Analytics if you want to use this service. If left blank, Google Analytics will not be used on the site. If this field is filled correctly, it is recommended to not edit it unless you want to switch the site to a different Google Analytics account.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ac620b4db1ec",
+                "label": "Google Sitemap Verification",
+                "name": "google_sitemap_verification",
+                "type": "text",
+                "instructions": "Paste in code for Google Sitemap Verification. If you do not wish to use this service or if you wish to verify in a different way, this field can be left blank. If this field is filled correctly, it is recommended to not edit it.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ac62124db1ed",
+                "label": "Bing Sitemap Verification",
+                "name": "bing_sitemap_verification",
+                "type": "text",
+                "instructions": "Paste in code provided by Bing for Bing Sitemap Verification. If you wish to not use this service or if you wish to verify with a different method, this field may be left blank. If this field is filled correctly, it is recommended to not edit it.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-general-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a689ea2512d3",
+        "title": "Page Editor",
+        "fields": [
+            {
+                "key": "field_5a6a6166c5907",
+                "label": "Page Callout",
+                "name": "page_callout",
+                "type": "text",
+                "instructions": "Enter text to be displayed as a callout at the top of the page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a689eb243208",
+                "label": "Background Images",
+                "name": "background_images",
+                "type": "repeater",
+                "instructions": "The background of this page chooses randomly from a set of images that you provide. Enter up to 10 images that you would like to appear as the background of this page on a randomly rotating basis. If you remove an image from the choices, remember to Remove the Row the image was in. Recommended images are 2000px wide or wider, 1300px tall or taller, and do not distract from the page content (no sharp patterns, distracting points of focus, or colors that make text illegible).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 1,
+                "max": 10,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5a689fa643209",
+                        "label": "Image Choice",
+                        "name": "image_choice",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5a6a0cdd6ce0c",
+                "label": "Content Columns",
+                "name": "page_columns",
+                "type": "repeater",
+                "instructions": "Choose 1 or 2 columns and enter the content for each.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 2,
+                "layout": "row",
+                "button_label": "Add Column",
+                "sub_fields": [
+                    {
+                        "key": "field_5a6a0d0c6ce0d",
+                        "label": "Column Content",
+                        "name": "column_content",
+                        "type": "wysiwyg",
+                        "instructions": "Enter the content for this column.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": 1,
+        "description": ""
+    }
+]

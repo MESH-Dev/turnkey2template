@@ -1,0 +1,119 @@
+// Variables
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$radius: 0px;
+
+// Breakpoints
+// Example Usage: @media($bp-smaller-than-tablet) { ... }
+$bp-larger-than-mobile    : "min-width: 480px" !default;
+$bp-larger-than-phablet   : "min-width: 550px" !default;
+$bp-larger-than-tablet    : "min-width: 750px" !default;
+$bp-larger-than-desktop   : "min-width: 1000px" !default;
+$bp-larger-than-desktophd : "min-width: 1200px" !default;
+
+$bp-smaller-than-desktophd : "max-width: 1200px" !default;
+$bp-smaller-than-desktop : "max-width: 1060px" !default;
+$bp-smaller-than-tablet : "max-width: 750px" !default;
+$bp-smaller-than-mobile : "max-width: 480px" !default;
+$bp-smaller-than-phablet   : "max-width: 550px" !default;
+
+// Colors
+$red: #a42126 !default;
+$white: #FFFFFF !default;
+$offwhite: #E4E5E9 !default;
+$black: #000000 !default;
+$translucent-white: rgba(255,255,255,0.9);
+$translucent-black: rgba(255,255,255,0.8);
+$bluegreen: #141D24 !default;
+$bluegrey: #ADBAAC !default;
+$copper: #E38D7A !default;
+$lightblue: #54ECF7 !default;
+$fountainblue: #4FBDB3 !default;
+
+
+//Fonts
+$proxima: "proxima-nova",sans-serif;
+$lato: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$hn: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+// Misc
+//$global-radius: 4px !default;
+
+//Old Config
+// ==========================================================================
+// = Global Variables
+// ==========================================================================
+
+$fix-mqs                      : false !default;
+
+// Color Scheme
+// examples based on the official Sass styleguide
+// =============
+
+// Descriptive colors:
+$hopbush                      : #c69;
+$bouquet                      : #b37399;
+$venus                        : #998099;
+$patina                       : #699;
+$nebula                       : #d2e1dd;
+$white                        : #fff;
+$dawn-pink                    : #f2ece4;
+$wafer                        : #e1d7d2;
+$iron                         : #dadbdf;
+$regent-grey                  : #808c99;
+$pale-sky                     : #6b717f;
+$midnight-blue                : #036;
+$black                        : #000;
+$grey                         : #404040;
+
+
+// Main color palette
+$color-primary                : $hopbush;
+$color-secondary              : $bouquet;
+$color-accent                 : $patina;
+$color-shadow                 : rgba($black, .125);
+$color-note                   : #666;
+
+$color-font                   : $grey;
+
+// Links
+$color-link                   : $color-primary;
+$color-link-hover             : $midnight-blue;
+$color-link-visited           : $bouquet;
+
+
+
+
+// Base Sizes
+// ==========
+
+
+$base__font-size               : 16;
+$base__line-height             : 24;
+
+$letter-space                  : 0.01;
+$trns-duration                 : 1;
+
+
+// Font Stacks
+// ===========
+
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family--primary    : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+// Font Weights
+// ===========
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Path to Assets
+// ==============
+
+$path--rel      : "../img";
