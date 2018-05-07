@@ -93,6 +93,7 @@
                         "choices": {
                             "fab fa-facebook": "Facebook",
                             "fab fa-instagram": "Instagram",
+                            "fab fa-twitter": "Twitter",
                             "fab fa-yelp": "Yelp",
                             "fab fa-linkedin": "LinkedIn"
                         },
