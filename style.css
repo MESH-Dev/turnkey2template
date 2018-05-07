@@ -452,6 +452,17 @@ li {
   color: #000;
 }
 
+/* line 70, sass/base/_typography.scss */
+blockquote {
+  margin-left: 0px;
+  border-left: 1px solid;
+  padding-left: 1rem;
+}
+/* line 74, sass/base/_typography.scss */
+blockquote p {
+  font-size: 1.8rem;
+}
+
 /* line 3, sass/base/_grid.scss */
 * {
   -moz-box-sizing: border-box;
@@ -842,11 +853,6 @@ ul ul, ul ol {
 ol ol, ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%;
-}
-
-/* line 30, sass/modules/_lists.scss */
-li {
-  margin-bottom: 1rem;
 }
 
 /* line 4, sass/modules/_tables.scss */
