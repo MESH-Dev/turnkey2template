@@ -94,8 +94,10 @@
                             "fab fa-facebook": "Facebook",
                             "fab fa-instagram": "Instagram",
                             "fab fa-twitter": "Twitter",
+                            "fab fa-youtube": "YouTube",
                             "fab fa-yelp": "Yelp",
-                            "fab fa-linkedin": "LinkedIn"
+                            "fab fa-linkedin": "LinkedIn",
+                            "fab fa-google-plus-g": "Google+"
                         },
                         "allow_null": 0,
                         "other_choice": 0,
