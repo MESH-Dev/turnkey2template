@@ -41,12 +41,12 @@
                     "id": ""
                 },
                 "choices": {
-                    "1": "Nunito Sans and Merriweather",
-                    "2": "Montserrat and Playfair Display",
-                    "3": "Ubuntu and Zilla Slab",
-                    "4": "IBM Plex Serif and Merriweather",
-                    "5": "Muli and Raleway",
-                    "6": "Zilla Slab and Open Sans"
+                    "1": "Karla Bold and Karla Regular",
+                    "2": "Quando and Karla",
+                    "3": "Abel and Karla",
+                    "4": "Noto Serif Black and Noto Serif Light",
+                    "5": "Abril Fatface and Cabin",
+                    "6": "Alfa Slab and Bitter"
                 },
                 "default_value": [
                     1
@@ -147,7 +147,7 @@
                 "label": "Secondary Color",
                 "name": "secondary_color",
                 "type": "color_picker",
-                "instructions": "Enter the site's secondary color. This color will be used for text links, lower-level text headings, and the Page Callout. Once this is entered correctly, it is recommended to make no changes.",
+                "instructions": "Enter the site's secondary color. This color will be used for text links, lower-level text headings heading 4 and Heading 6, and the Page Callout. Once this is entered correctly, it is recommended to make no changes.",
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
@@ -162,7 +162,7 @@
                 "label": "Tertiary Color",
                 "name": "tertiary_color",
                 "type": "color_picker",
-                "instructions": "Enter the site's tertiary color. This color will be used for multiple lower-level text headings. Once this is entered correctly, it is recommended to make no changes.",
+                "instructions": "Enter the site's tertiary color. This color will be used for multiple lower-level text headings - Heading 2 and Heading 5. Once this is entered correctly, it is recommended to make no changes.",
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {

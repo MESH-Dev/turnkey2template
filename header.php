@@ -27,35 +27,36 @@
 	$sf_css = '';
 	$font_select = get_field('font_pairing', 'option');
 	if ($font_select == 1) {
-		echo '<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">';
-		echo '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">';
-		$pf_css = "font-family: 'Nunito Sans', sans-serif;";
-		$sf_css = "font-family: 'Merriweather', serif;";
+		echo '<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">';
+		$sf_css = "font-family: 'Karla', sans-serif; font-weight:400 !important;";
+		$pf_css = "font-family: 'Karla', sans-serif; font-weight:700 !important;";
 	} elseif($font_select == 2){
-		echo '<link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">';
-		$pf_css = "font-family: 'Montserrat', sans-serif;";
-		$sf_css = "font-family: 'Playfair Display', serif;";
+		echo '<link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">';
+		echo '<link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet">';
+		$sf_css = "font-family: 'Karla', sans-serif; font-weight:400 !important;";
+		$pf_css = "font-family: 'Quando', serif;";
 	} elseif($font_select == 3){
-		echo ' <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">';
-		$pf_css = "font-family: 'Ubuntu', sans-serif;";
-		$sf_css = "font-family: 'Zilla Slab', serif;";
+		echo '<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">';
+		echo '<link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet">';
+		$sf_css = "font-family: 'Karla', sans-serif; font-weight:400 !important;";
+		$pf_css = "font-family: 'Abel', sans-serif;";
 	} elseif($font_select == 4){
-		echo '<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Merriweather:300,300i,400,400i,700,700i" rel="stylesheet">';
-		$pf_css = "font-family: 'IBM Plex Serif', serif;";
-		$sf_css = "font-family: 'Merriweather', serif;";
+		echo '<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:300,400" rel="stylesheet">';
+		$sf_css = "font-family: 'Noto Serif KR', sans-serif; font-weight:300 !important;";
+		$pf_css = "font-family: 'Noto Serif KR', sans-serif; font-weight:900 !important;";
 	} elseif ($font_select == 5) {
-		echo '<link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i|Raleway:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">';
-		$pf_css = "font-family: 'Muli', sans-serif;";
-		$sf_css = "font-family: 'Raleway', sans-serif;";
+		echo '<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">';
+		echo '<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">';
+		$sf_css = "font-family: 'Cabin', sans-serif;";
+		$pf_css = "font-family: 'Abril Fatface', cursive;";
 	} elseif ($font_select == 6) {
-		echo '<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">';
-		$pf_css = "font-family: 'Zilla Slab', serif;";
-		$sf_css = "font-family: 'Open Sans', sans-serif;";
+		echo '<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bitter:400,400i,700" rel="stylesheet">';
+		$sf_css = "font-family: 'Bitter', serif;";
+		$pf_css = "font-family: 'Alfa Slab One', serif; font-weight:normal !important;";
 	} else {
-		echo '<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">';
-		echo '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">';
-		$pf_css = "font-family: 'Nunito Sans', sans-serif;";
-		$sf_css = "font-family: 'Merriweather', serif;";
+		echo '<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">';
+		$sf_css = "font-family: 'Karla', sans-serif; font-weight:400 !important;";
+		$pf_css = "font-family: 'Karla', sans-serif; font-weight:700 !important;";
 	};
 	?>
 
