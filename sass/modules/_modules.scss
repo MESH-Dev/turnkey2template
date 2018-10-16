@@ -24,6 +24,14 @@
   float: left;
   width: 100%;
   background: $offwhite;
+  //Addition for WP Codex---
+  img.alignright { float: right; margin: 0 0 1rem 1rem; }
+   img.alignleft { float: left; margin: 0 1rem 1rem 0; }
+   img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+   .alignright { float: right; }
+   .alignleft { float: left; }
+   .aligncenter { display: block; margin-left: auto; margin-right: auto; }
+   //----
   @media screen and ($bp-smaller-than-tablet){
      padding: 20px;
  }
