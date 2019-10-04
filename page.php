@@ -11,9 +11,10 @@
 			<main class="main-content" id="content">
 				<?php
 				$callout = get_field('page_callout');
-				if ($callout) {
+				$title = get_the_title();
+				if ($callout != '') {
 					?>
-					<h4 class="page-callout"><?php the_field('page_callout'); ?></h4>
+					<h1 class="page-callout"><?php if($callout != '') { echo $callout; }else{ echo $title;} ?></h1>
 						<hr class="callout-hr">
 					<?php
 				}

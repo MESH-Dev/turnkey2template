@@ -7,7 +7,15 @@
 <head>
 
 	<meta charset="utf-8">
-	<title><?php bloginfo('name'); ?></title>
+	<title>
+		<?php if (is_front_page()){
+			bloginfo('name');
+		}else{
+			bloginfo('name'); wp_title('|', 'true');
+		}
+		?>
+
+	</title>
 
 	<!-- Meta / og: tags -->
 	<meta name="description" content="">
@@ -110,7 +118,7 @@
 	?>
 
 	<style>
-		h4.page-callout{
+		h1.page-callout{
 			color: <?php echo $secondary_color; ?>;
 		}
 		hr{
